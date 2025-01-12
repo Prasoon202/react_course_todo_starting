@@ -12,7 +12,7 @@ body {
 }
 
 .nav_bar {
-  background: #61a575;
+  background: #afaa07;
   color: #fff;
   padding: 15px;
   display: flex;
@@ -37,7 +37,7 @@ input {
   margin: 2px;
   border-radius: 5px;
   outline: none;
-  border: 1px solid #61a575;
+  border: 1px solid #8b9008;
 }
 
 button {
@@ -46,7 +46,7 @@ button {
   margin: 2px;
   border-radius: 5px;
   outline: none;
-  background: #4d845d;
+  background: #646b04;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
@@ -71,4 +71,15 @@ button {
   font-weight: bold;
   display: flex;
   justify-content: space-between;
+}
+.gang {
+  font-family: "Gang of Three", sans-serif;
+}
+.page {
+  margin: 10px;
+}
+.ramu button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(90deg, #ee0979, #ff6a00);
 }
